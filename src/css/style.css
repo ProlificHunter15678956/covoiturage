@@ -131,11 +131,11 @@ ul {
     justify-content: space-around;
 }
 
-.main-content {
+.tab-container {
     max-width: 72em;
     margin-left: auto;
     margin-right: auto;
-    padding: 0.25em;
+    padding: 2em;
 }
 
 
@@ -148,5 +148,19 @@ ul {
 
 .search-button:hover {
   background-color: #1D4ED8;
+}
+
+
+.tab-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  border-radius: 10%;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.tab-list button {
+  padding: 1em;
 }
 

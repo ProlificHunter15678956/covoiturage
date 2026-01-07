@@ -31,7 +31,8 @@
     </header>
     <main>
         <section>
-                <div>
+            <div class="tab-container">
+                <div class="tab-list">
                     <button>Rechercher</button>
                     <button>Publier</button>
                     <button>Trajets</button>
@@ -39,35 +40,36 @@
                     <button>Portefeuille</button>
                     <button>Profile</button>
                 </div>
-            <div class="main-content">
-            <!-- menu slide en haut du main search box -->
-
-            <!-- 
-                le main search box pour trouver les trajet 
-                1. le haut de la box
-                - recherche de trajet a gauche
-                - button filtres avec petite icon a l'interieur du button et gauche a droite de la box
-
-                2. le millieu de la box
-                - button depart, arrivée, date; au dessus du button a gauche un text qui dit quelle button correspond a celui du dessous
-                - place holder
-
-                3. en bas de la box
-                - un long button rechercher
-                - le text au millieu 
-                - le button etiré
-            -->
-
-                <div class="top-main-container">
-                    <p>search traject</p>
-                    <button>filtre</button>
+                <div class="tab-content active" id="search-content">
+                <!-- menu slide en haut du main search box -->
+    
+                <!-- 
+                    le main search box pour trouver les trajet 
+                    1. le haut de la box
+                    - recherche de trajet a gauche
+                    - button filtres avec petite icon a l'interieur du button et gauche a droite de la box
+    
+                    2. le millieu de la box
+                    - button depart, arrivée, date; au dessus du button a gauche un text qui dit quelle button correspond a celui du dessous
+                    - place holder
+    
+                    3. en bas de la box
+                    - un long button rechercher
+                    - le text au millieu 
+                    - le button etiré
+                -->
+    
+                    <div class="top-main-container">
+                        <p>search traject</p>
+                        <button>filtre</button>
+                    </div>
+                    <div>
+                        <input type="ville de depart" name="" id="">
+                        <input type="ville d'arrivée" name="" id="">
+                        <input type="date">
+                    </div>
+                    <button class="main-section-1-search-button"><b>Rechercher</b></button>
                 </div>
-                <div>
-                    <input type="ville de depart" name="" id="">
-                    <input type="ville d'arrivée" name="" id="">
-                    <input type="date">
-                </div>
-                <button class="main-section-1-search-button"><b>Rechercher</b></button>
             </div>
         </section>
         <section>
