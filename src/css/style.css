@@ -1,0 +1,152 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    padding: 0.75em;
+
+    
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.header-icon {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+
+.header-text {
+    font-size: 1.25em;
+}
+
+.header-right {
+    display: flex;
+    gap: 0.75em;
+    align-items: center;
+}
+
+.header-right button {
+    height: 2em;
+    width: 2.5em;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+.custom-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  padding: 2em;
+  border-radius: 50%;
+}
+
+.custom-button i {
+    font-size: 1.7rem;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+}
+
+.custom-button:active {
+  background: #cccccc;
+}
+
+
+
+
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  padding: 2em;
+  border-radius: 50%;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -0.25em;
+  right: -0.25em;
+  width: 1.25em;
+  height: 1.25em;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10em;
+}
+
+.top-main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 72em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+}
+
+
+.main-section-1-search-button {
+    width: 100%;
+    background-color: #2563EB;
+    border: none;
+    color: white;
+}
+
+.search-button:hover {
+  background-color: #1D4ED8;
+}
+
