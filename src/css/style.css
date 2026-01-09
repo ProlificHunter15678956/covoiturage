@@ -136,6 +136,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 2em;
+    border: 1px solid black;
 }
 
 
@@ -155,7 +156,7 @@ ul {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(6, 1fr);
-  border-radius: 10%;
+  border-radius: 1%;
   padding: 1em;
   border: 1px solid black;
 }
@@ -164,3 +165,27 @@ ul {
   padding: 1em;
 }
 
+
+.main-section-1-search-button {
+  padding: 1em;
+  border-radius:  0.75em;
+  margin-top: 1em;
+}
+
+.input_field_bottom_main_container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+  outline: none;
+  
+}
+
+.input_field_bottom_main_container input {
+  padding: 1.5em;
+  border-radius: 1em;
+  
+  width: 30em;
+  
+}
